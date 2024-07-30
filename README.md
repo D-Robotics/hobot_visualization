@@ -2,7 +2,7 @@ English| [简体中文](./README_cn.md)
 
 # Function Introduction
 
-The `hobot_visualization` package is developed by Horizon Robotics based on Ros2 to convert ai_msgs topic messages into visualization_msgs topic messages for visualizing relevant data.
+The `hobot_visualization` package is developed by TROS based on Ros2 to convert ai_msgs topic messages into visualization_msgs topic messages for visualizing relevant data.
 
 # Compilation
 
@@ -14,7 +14,7 @@ ROS packages:
 - rclcpp
 - visualization_msgs
 
-`ai_msgs` is a custom message format defined by Horizon Robotics. It is used to publish inference results after algorithm model inference, and the `ai_msgs` package is defined in `hobot_msgs`.
+`ai_msgs` is a custom message format defined by TROS. It is used to publish inference results after algorithm model inference, and the `ai_msgs` package is defined in `hobot_msgs`.
 
 `rclcpp` is a C++ client library in ROS2 that provides APIs for creating ROS2 nodes, subscribing and publishing topics, invoking services, creating timers, etc.
 
@@ -104,7 +104,7 @@ colcon build --packages-select hobot_visualization \
 
 ## Running
 
-After successful compilation, copy the generated install folder to the Horizon X3 development board (skip the copying step if compiling on X3), and run the following commands:
+After successful compilation, copy the generated install folder to the RDK X3 development board (skip the copying step if compiling on X3), and run the following commands:
 
 
 ### **Ubuntu X3**

@@ -4,7 +4,7 @@
   <name>hobot_visualization</name>
   <version>2.0.3</version>
   <description>TogetheROS hobot ai_msgs to visualization_msgs</description>
-  <maintainer email="zixi01.chen@horizon.ai">zixi01.chen</maintainer>
+  <maintainer email="zixi01.chen@d-robotics.cc">zixi01.chen</maintainer>
   <license>Apache License 2.0</license>
 
   <depend>rclcpp</depend>

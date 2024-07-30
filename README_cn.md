@@ -2,7 +2,7 @@
 
 # 功能介绍
 
-hobot_visualization package 是地平线基于Ros2开发的 ai_msgs 话题消息转换为 visualization_msgs 话题消息，用于可视化相关数据。
+hobot_visualization package 是TROS基于Ros2开发的 ai_msgs 话题消息转换为 visualization_msgs 话题消息，用于可视化相关数据。
 
 
 # 编译
@@ -15,7 +15,7 @@ ros package：
 - rclcpp
 - visualization_msgs
 
-'ai_msgs' 是地平线自定义的消息格式，用于算法模型推理后，发布推理结果，ai_msgs package定义在hobot_msgs中。
+'ai_msgs' 是TROS自定义的消息格式，用于算法模型推理后，发布推理结果，ai_msgs package定义在hobot_msgs中。
 
 'rclcpp' 是 ROS2 中的一个C++客户端库，提供了用于创建 ROS2 节点、订阅和发布话题、调用服务、创建定时器等功能的API。
 
@@ -107,7 +107,7 @@ colcon build --packages-select hobot_visualization \
 
 ## 运行
 
-编译成功后，将生成的install路径拷贝到地平线旭日X3开发板上（如果是在X3上编译，忽略拷贝步骤），并执行如下命令运行：
+编译成功后，将生成的install路径拷贝到RDK X3开发板上（如果是在X3上编译，忽略拷贝步骤），并执行如下命令运行：
 
 
 ### **Ubuntu X3**
