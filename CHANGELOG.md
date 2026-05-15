@@ -1,5 +1,9 @@
 # Changelog for package hobot_visualization
 
+tros_2.1.0 (2026-05-15)
+------------------
+1. 删除使用 dnn_node_example 时默认模型。
+
 tros_2.0.3 (2024-03-06)
 ------------------
 1. launch启动脚本中`codec` node的`out_format`配置项参数由`jpeg-compressed`变更为`jpeg`。
