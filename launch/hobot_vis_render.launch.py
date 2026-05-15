@@ -30,10 +30,7 @@ def generate_launch_description():
                 get_package_share_directory('dnn_node_example'),
                 'launch/dnn_node_example.launch.py')),
         launch_arguments={
-            'dnn_example_config_file': 'config/fcosworkconfig.json',
-            'dnn_example_msg_pub_topic_name': '/hobot_dnn_detection',
-            'dnn_example_image_width': str(960),
-            'dnn_example_image_height': str(544)
+            'dnn_example_msg_pub_topic_name': '/hobot_dnn_detection'
         }.items()
     )
 
